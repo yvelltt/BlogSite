@@ -19,13 +19,13 @@ windows 安裝環境介紹
     選擇安裝 hugo_extended_(版本號碼)_windows-amd64
 * 設定環境變數
     1. 控制台\系統及安全性\系統，選擇進階系統設定
-    ![im](images/hugo_netify/hugo_netify_enviroment_01.png)
+    ![im](/images/hugo_netify/hugo_netify_enviroment_01.png)
 
     2. 選擇系統變數，點選Path
-    ![im](images/hugo_netify/hugo_netify_enviroment_02.png)
+    ![im](/images/hugo_netify/hugo_netify_enviroment_02.png)
 
     3. 新增hugo.exe 存放的路徑
-    ![im](images/hugo_netify/hugo_netify_enviroment_03.png)
+    ![im](/images/hugo_netify/hugo_netify_enviroment_03.png)
 
 * 安裝好hugo，變可以使用new一個Project
     ``` shell
@@ -111,8 +111,8 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) 這�
 
 1. 先建立repository
 
-![](images/hugo_netify/hugo_netify_github_01.png)
-![](images/hugo_netify/hugo_netify_github_02.png)
+![](/images/hugo_netify/hugo_netify_github_01.png)
+![](/images/hugo_netify/hugo_netify_github_02.png)
 
 
 2. 輸入以下的指令
@@ -128,16 +128,16 @@ git push -u origin master
 ### 上傳到Netlify
 
 * 01 新建一個Site
-![](images/hugo_netify/hugo_netify_netifySet_01.png)
+![](/images/hugo_netify/hugo_netify_netifySet_01.png)
 
 * 02 選取第一個Github 發布
-![](images/hugo_netify/hugo_netify_netifySet_02.png)
+![](/images/hugo_netify/hugo_netify_netifySet_02.png)
 
 * 03 選取要連結的專案
-![](images/hugo_netify/hugo_netify_netifySet_03.png)
+![](/images/hugo_netify/hugo_netify_netifySet_03.png)
 
 * 04 設置Build comman 和 Publish Directory 通常預設會自動判斷好
-![](images/hugo_netify/hugo_netify_netifySet_04.png)
+![](/images/hugo_netify/hugo_netify_netifySet_04.png)
 
 
 
@@ -150,3 +150,5 @@ git push -u origin master
 hugo new content posts/要新的的檔案名稱 +  副檔名(.md)
 ```
 3. 推上github 便會自動部屬(因為已經連接netify)
+
+4. 上傳的圖片必須放在Static 的images路徑底下，可以在底下建立多層資料夾，連結寫法從/images/yourimage.jpg
