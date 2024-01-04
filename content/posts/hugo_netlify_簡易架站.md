@@ -1,13 +1,11 @@
 ---
-title: "Hugo + netlify 簡易架站(靜態網站)"
+title: "Hugo + Github + Netify 簡易靜態網站架設"
 date: 2024-01-04T11:44:59+08:00
 tags:
 categories:
 draft: false
 
 ---
-
-# Hugo + Github + Netify 簡易靜態網站架設
 
 ### 1. 安裝Hugo
 
@@ -34,7 +32,7 @@ windows 安裝環境介紹
 
 * 安裝主題
 
-    [主題列表](https://github.com/nodejh/hugo-theme-mini)
+    [主題列表](https://themes.gohugo.io/)
 
 
     1. 假設選擇這個[主題](https://github.com/adityatelange/hugo-PaperMod)
