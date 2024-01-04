@@ -6,10 +6,23 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
-  - name: "post"
-    label: "Post"
-    folder: "content/post"
+  - name: "studyPlaln"
+    label: "studyPlaln"
+    folder: "content/posts/studyPlaln"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Upload Time", name: "upload_time", widget: "datetime", default: "now"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "knowledgeDatabase"
+    label: "knowledgeDatabase"
+    folder: "content/posts/knowledgeDatabase"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Upload Time", name: "upload_time", widget: "datetime", default: "now"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
