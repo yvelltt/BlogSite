@@ -6,9 +6,9 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
-  - name: "studyPlan"
-    label: "studyPlan"
-    folder: "content/posts/studyPlan"
+  - name: "studyPlaln"
+    label: "studyPlaln"
+    folder: "content/posts/studyPlaln"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
